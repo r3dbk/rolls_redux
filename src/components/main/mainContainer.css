@@ -1,0 +1,58 @@
+
+body, html {
+	background-color: #F8F9F9;
+	height: 100%;
+}
+
+.modall {
+	display: block;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hide {
+	display: none;
+}
+
+.modall_content {
+	text-align: center;
+	background-color: white;
+	border-radius: 8px;
+	margin: 100px auto;
+	padding: 20px;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	
+	border: outset lightblue 2px;
+}
+
+.modall_content h1 {
+}
+
+.order-det {
+	margin-bottom: 20px;
+	/* background-color: rgb(250, 253, 255); */
+	text-align: left;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: solid 1px rgb(218, 227, 235);
+}
+
+.numb {
+	color: rgb(94, 180, 255);
+}
+
+.adr {
+	color: rgb(95, 95, 95);
+}
+
+.itog {
+	font-weight: bold;
+}

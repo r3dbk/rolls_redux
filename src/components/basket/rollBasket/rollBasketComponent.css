@@ -1,0 +1,124 @@
+
+.cart_item__top {
+	display: flex;
+	align-items: flex-start;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #dee2e6;
+	margin-bottom: 15px;
+	width: 300px;
+}
+
+.cart_item__img  {
+
+}
+
+.cart_item__img img {
+	max-width: 100px;
+	height: auto;
+}
+
+.cart_item__desc {
+	padding-top: 15px;
+	padding-left: 15px;
+	width: 300px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.cart_item__title {
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+    line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.cart_item__weight {
+    color: #6c757d!important;
+    font-size: 80%;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.cart_item__details {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.cart_item__details .price__currency {
+	font-size: 18px;
+	margin-left: 15px;
+}
+
+.cart_total {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.items {
+	font-family: 'Merriweather', serif;
+	background: #f2ede7;
+	border-radius: 8px;
+	width: 200px;
+	display: flex;
+	font-size: 19px;
+	height: 30px;
+	overflow: hidden;
+	justify-content:space-evenly;
+}
+
+.items__control {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+	width: 40px;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+	text-align: center;
+}
+
+.items__control:hover {
+    background: #eb5a1e;
+    color: #FFF;
+}
+
+.items__current {
+	width: 40px;
+}
+
+/* items--small */
+.items.items--small {
+	width: 90px;
+	font-size: 16px;
+	height: 26px;
+	text-align: center;
+}
+
+.items.items--small .items__control {
+	width: 30px;
+}
+
+.items.items--small .items__current {
+	width: 30px;
+}
+
+.price {
+	text-align: left;
+}
+
+.price__weight {
+	color: #6c757d!important;
+	font-size: 80%;
+	line-height: 1;
+}
+
+.price__currency {
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 1;
+}
